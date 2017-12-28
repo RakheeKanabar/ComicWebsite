@@ -1,0 +1,180 @@
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 	#df2020;
+	width:100%;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+}
+
+li a{
+    background-color: #bf4040;
+}
+
+.active {
+    background-color: 	#df2020;
+}
+#container{
+width:50%;
+height:100%;
+margin: 0px auto 0px auto;
+background-color:white
+}
+#containerdoc{
+width:50%;
+height:100%;
+margin: 0px auto 0px auto;
+background-color:white
+}
+#container1{
+width:100%;
+height:100%;
+margin: 0px auto 0px auto;
+background-color:white;
+}
+body{
+
+background-color:#00BFFF;
+
+}
+h1{
+text-align:center;
+color: white;
+}
+footer{
+text-align:center;
+font-family:Calibri;
+font-size:12px;
+}
+article{
+
+text-align: center;
+margin-left:12px;
+margin-right:12px;
+padding-bottom:200px;
+left:100px;
+font-family:Calibri;
+font-size:14px;
+
+
+}
+header{
+text-align:center;
+
+}
+#video{
+	margin-left:20%;
+	padding:3px 20px;
+
+}
+homeimage{
+	
+	margin-left:0%;
+	height:7px;
+	
+}
+a{
+
+text-align:center;
+
+}
+fontsize{
+
+font-size:14px;
+font-family:bold;
+font-family:Arial
+
+}
+Comic{
+width:40%;
+}
+#image1{
+width:100%;
+height:400px}
+
+button{
+margin-left: 25%;
+width: 10%;
+height: 30px;
+}
+.pdfDoc ul{
+
+list-style-type: none;
+
+}
+.pdfDoc ul li{
+
+float:left;
+margin:1%;
+}
+.pdfDoc ul li a{
+
+display:block;
+text-align: center;
+text-decoration: none;
+
+}
+.pdfDoc img{
+
+width:10%;
+height:20%;
+}
+#image2{
+width:70%;
+height:400px
+}
+#number1{
+
+width:100%;
+
+
+}
+#number2{
+
+width:100%;
+
+
+}
+#number3{
+
+width:100%;
+
+
+}
+#number4{
+
+width:100%;
+
+
+}
+#title{
+
+width:50%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" id="stylesheet1" href="../css/StyleSheet.css">
+<style>
+</style>
+</head>
+<body>
+<script> 
+	   function switch_style()
+	   {
+			document.getElementById("stylesheet1").href='../css/StyleSheet2.css';
+	   }
+
+		function switch_back()
+		 {
+			document.getElementById("stylesheet1").href='../css/StyleSheet.css';
+	     }
+</script>
+<button onclick="switch_style()">Switch CSS</button>
+ <button onclick="switch_back()">Switch back</button>
+
+ <header>
+    <h1> <img id=title src="../Images/title1.png"/></h1>
+  </header>
+  <div id=container>
+ 
+<nav>
+<ul>
+  <li><a class="active" href="Home.html">Home</a></li>
+  <li><a href="Comic.html">Comic</a></li>
+  <li><a href="Documentation.html">Documentation</a></li>
+  <li><a href="SiteMap.html">SiteMap</a></li>
+  <li><a href="Inspiration.html">Inspiration</a></li>
+</ul>
+</nav>
+
+
+
+
+
+
+<div class="Comic">
+<h2>Toy Story Comics</h2>
+<br>
+<img class="mySlides" id=number1 src="../Images/number 1.jpg" >
+
+<img class="mySlides" id=number2 src="../Images/number 2.jpg">
+    
+<img class="mySlides" id=number3 src="../Images/number 3.jpg" >
+ <img class="mySlides" id=number4 src="../Images/number 4.jpg" >
+</div>
+<div id=button>
+<button onclick="plusDivs(-1)">Back</a>
+<button onclick="plusDivs(1)">Next</a>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+</div>
+</body>
+<footer>
+    &#9400;Created by Rakhee Kanabar 
+ </footer>
+</html>

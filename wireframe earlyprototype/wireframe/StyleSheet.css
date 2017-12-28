@@ -1,0 +1,16 @@
+nav {
+ 
+	position: relative;
+	margin-left: 50%;
+
+	
+}
+
+
+#header {
+    height: 30px;
+}
+footer {
+     position: absolute;
+    bottom: 0;
+}
